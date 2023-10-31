@@ -14,6 +14,7 @@
 		E29B50F72AF19DE600A50EF1 /* DavilaSoundBoard.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E29B50F52AF19DE600A50EF1 /* DavilaSoundBoard.xcdatamodeld */; };
 		E29B50F92AF19DEA00A50EF1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E29B50F82AF19DEA00A50EF1 /* Assets.xcassets */; };
 		E29B50FC2AF19DEB00A50EF1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E29B50FA2AF19DEB00A50EF1 /* LaunchScreen.storyboard */; };
+		E29B51042AF1A68900A50EF1 /* SoundViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E29B51032AF1A68900A50EF1 /* SoundViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		E29B50F82AF19DEA00A50EF1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E29B50FB2AF19DEB00A50EF1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E29B50FD2AF19DEB00A50EF1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E29B51032AF1A68900A50EF1 /* SoundViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +64,7 @@
 				E29B50EE2AF19DE600A50EF1 /* SceneDelegate.swift */,
 				E29B50F02AF19DE600A50EF1 /* ViewController.swift */,
 				E29B50F22AF19DE600A50EF1 /* Main.storyboard */,
+				E29B51032AF1A68900A50EF1 /* SoundViewController.swift */,
 				E29B50F82AF19DEA00A50EF1 /* Assets.xcassets */,
 				E29B50FA2AF19DEB00A50EF1 /* LaunchScreen.storyboard */,
 				E29B50FD2AF19DEB00A50EF1 /* Info.plist */,
@@ -145,6 +148,7 @@
 				E29B50ED2AF19DE600A50EF1 /* AppDelegate.swift in Sources */,
 				E29B50EF2AF19DE600A50EF1 /* SceneDelegate.swift in Sources */,
 				E29B50F72AF19DE600A50EF1 /* DavilaSoundBoard.xcdatamodeld in Sources */,
+				E29B51042AF1A68900A50EF1 /* SoundViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
