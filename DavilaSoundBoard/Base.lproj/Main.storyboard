@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="X6i-kn-XsT">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="22155" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="X6i-kn-XsT">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22131"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -17,7 +18,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="O6f-DU-OW9">
-                                <rect key="frame" x="0.0" y="88" width="414" height="774"/>
+                                <rect key="frame" x="0.0" y="92" width="414" height="770"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                             </tableView>
                         </subviews>
@@ -54,7 +55,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Q4q-02-pry">
-                                <rect key="frame" x="156" y="108" width="102.5" height="44"/>
+                                <rect key="frame" x="151.5" y="112" width="111" height="44"/>
                                 <color key="tintColor" systemColor="systemRedColor"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" image="BiRecordCircle" title=" Grabar"/>
@@ -63,7 +64,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="29B-ti-JmD">
-                                <rect key="frame" x="144.5" y="172" width="125" height="44"/>
+                                <rect key="frame" x="138.5" y="176" width="137.5" height="44"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" image="MdiPlayCircleOutline" title="Reproducir"/>
                                 <connections>
@@ -71,30 +72,44 @@
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Nombre" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tqn-eM-I6e">
-                                <rect key="frame" x="20" y="246" width="374" height="21"/>
+                                <rect key="frame" x="20" y="250" width="374" height="21"/>
                                 <color key="backgroundColor" systemColor="labelColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Nombre del audio" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Y3k-ZT-Kkp">
-                                <rect key="frame" x="20" y="287" width="374" height="34"/>
+                                <rect key="frame" x="20" y="291" width="374" height="34"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="V8m-lQ-HIa">
-                                <rect key="frame" x="169.5" y="341" width="75.5" height="31"/>
+                                <rect key="frame" x="165" y="345" width="84.5" height="34.5"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="Agregar"/>
                                 <connections>
                                     <action selector="agregarTapped:" destination="h62-VI-SYU" eventType="touchUpInside" id="rHP-7h-0YE"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="psO-WW-5bc">
+                                <rect key="frame" x="186" y="409.5" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="Bbd-0y-gyr">
+                                <rect key="frame" x="48" y="450.5" width="318" height="31"/>
+                                <connections>
+                                    <action selector="volumenSliderChange:" destination="h62-VI-SYU" eventType="valueChanged" id="nUa-oo-xSg"/>
+                                </connections>
+                            </slider>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="FyC-fE-aNh"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="Q4q-02-pry" firstAttribute="centerX" secondItem="FyC-fE-aNh" secondAttribute="centerX" id="452-sP-PgA"/>
+                            <constraint firstItem="Bbd-0y-gyr" firstAttribute="leading" secondItem="FyC-fE-aNh" secondAttribute="leading" constant="50" id="49W-GG-sVu"/>
+                            <constraint firstItem="Bbd-0y-gyr" firstAttribute="centerX" secondItem="FyC-fE-aNh" secondAttribute="centerX" id="4za-Tv-d5y"/>
                             <constraint firstItem="FyC-fE-aNh" firstAttribute="trailing" secondItem="tqn-eM-I6e" secondAttribute="trailing" constant="20" id="5uw-on-CEm"/>
                             <constraint firstItem="29B-ti-JmD" firstAttribute="top" secondItem="Q4q-02-pry" secondAttribute="bottom" constant="20" id="8MD-Cc-lu6"/>
                             <constraint firstItem="29B-ti-JmD" firstAttribute="top" secondItem="Q4q-02-pry" secondAttribute="bottom" constant="20" id="9Fi-Oh-43S"/>
@@ -103,11 +118,15 @@
                             <constraint firstItem="tqn-eM-I6e" firstAttribute="centerX" secondItem="FyC-fE-aNh" secondAttribute="centerX" id="FrH-nq-aCr"/>
                             <constraint firstItem="V8m-lQ-HIa" firstAttribute="centerX" secondItem="FyC-fE-aNh" secondAttribute="centerX" id="KGp-dS-DoG"/>
                             <constraint firstItem="V8m-lQ-HIa" firstAttribute="top" secondItem="Y3k-ZT-Kkp" secondAttribute="bottom" constant="20" id="PMB-lS-Qwk"/>
+                            <constraint firstItem="psO-WW-5bc" firstAttribute="centerX" secondItem="FyC-fE-aNh" secondAttribute="centerX" id="a33-EM-MsC"/>
+                            <constraint firstItem="psO-WW-5bc" firstAttribute="top" secondItem="V8m-lQ-HIa" secondAttribute="bottom" constant="30" id="dDX-w6-lIC"/>
                             <constraint firstItem="Y3k-ZT-Kkp" firstAttribute="leading" secondItem="FyC-fE-aNh" secondAttribute="leading" constant="20" id="dGt-3L-tW1"/>
                             <constraint firstItem="Y3k-ZT-Kkp" firstAttribute="centerX" secondItem="FyC-fE-aNh" secondAttribute="centerX" id="g62-yT-ZyU"/>
                             <constraint firstItem="tqn-eM-I6e" firstAttribute="leading" secondItem="FyC-fE-aNh" secondAttribute="leading" constant="20" id="gl9-Fj-fdU"/>
                             <constraint firstItem="tqn-eM-I6e" firstAttribute="top" secondItem="29B-ti-JmD" secondAttribute="bottom" constant="30" id="jCT-lg-J56"/>
+                            <constraint firstItem="Bbd-0y-gyr" firstAttribute="top" secondItem="psO-WW-5bc" secondAttribute="bottom" constant="20" id="meg-rv-GmV"/>
                             <constraint firstItem="tqn-eM-I6e" firstAttribute="top" secondItem="29B-ti-JmD" secondAttribute="bottom" constant="30" id="neg-p2-lVZ"/>
+                            <constraint firstItem="FyC-fE-aNh" firstAttribute="trailing" secondItem="Bbd-0y-gyr" secondAttribute="trailing" constant="50" id="r89-8q-laQ"/>
                             <constraint firstItem="29B-ti-JmD" firstAttribute="centerX" secondItem="FyC-fE-aNh" secondAttribute="centerX" id="rCu-5q-Mnl"/>
                             <constraint firstItem="Y3k-ZT-Kkp" firstAttribute="top" secondItem="tqn-eM-I6e" secondAttribute="bottom" constant="20" id="zRQ-W7-nV8"/>
                         </constraints>
@@ -118,6 +137,8 @@
                         <outlet property="grabarButton" destination="Q4q-02-pry" id="Qq7-uw-Yeb"/>
                         <outlet property="nombreTextField" destination="Y3k-ZT-Kkp" id="VxK-LH-fya"/>
                         <outlet property="reproducirButton" destination="29B-ti-JmD" id="kHM-C0-BG1"/>
+                        <outlet property="tiempoGrab" destination="psO-WW-5bc" id="oZH-CT-1vA"/>
+                        <outlet property="volumenSliderValue" destination="Bbd-0y-gyr" id="rjg-n9-qkR"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="59q-BB-3dR" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -130,7 +151,7 @@
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="X6i-kn-XsT" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="Uif-er-gCX">
-                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <rect key="frame" x="0.0" y="48" width="414" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
